@@ -70,6 +70,6 @@ body {
     
     .images-container img {
         width: calc(50% - 10px); /* Make each image occupy half of the container width minus the gap */
-        height: 150px; /* Maintain aspect ratio */
+        height: 300px; /* Maintain aspect ratio */
         margin-bottom: 10px; /* Add some space between rows */
     }
