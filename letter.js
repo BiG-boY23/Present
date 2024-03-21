@@ -3,6 +3,7 @@ function showLetter() {
     const heart = document.querySelector('.heart');
     const container = document.querySelector('.container');
     const h1 = document.querySelector('h1');
+     const h2 = document.querySelector('h2');
 
     // Hide the heart shape
     heart.style.display = 'none';
@@ -10,6 +11,7 @@ function showLetter() {
     // Show the letter
     container.style.display = 'block';
     h1.style.display = 'none';
+    h2.style.display = 'none';
 }
 
 // Add event listener to the heart element
